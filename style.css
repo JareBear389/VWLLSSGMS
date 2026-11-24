@@ -1,0 +1,76 @@
+:root {
+  --bg: #121417;
+  --panel: #1c1f24;
+  --tile: #2a2e35;
+  --text: #f2f3f5;
+  --muted: #9aa1ab;
+  --accent: #f5c542;
+  --good: #4caf6a;
+  --bad: #e0565b;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 560px; margin: 0 auto; padding: 24px 16px 48px; }
+header { text-align: center; margin-bottom: 24px; }
+h1 { margin: 0; font-size: 2.4rem; letter-spacing: 0.12em; }
+h1 .dim { color: #444a54; text-decoration: line-through; font-weight: 400; }
+h2 { font-size: 1.05rem; margin: 32px 0 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+.sub { margin: 4px 0 0; color: var(--muted); }
+.lead { font-size: 1.15rem; text-align: center; }
+.note { color: var(--muted); font-size: 0.9rem; text-align: center; }
+.rules { padding-left: 20px; color: #d6d9de; }
+.rules li { margin: 6px 0; }
+.example { background: var(--panel); border-radius: 12px; padding: 16px; text-align: center; margin: 16px 0; }
+.example p { margin: 8px 0 0; }
+
+button { font: inherit; border: 0; border-radius: 10px; padding: 12px 18px; cursor: pointer;
+  background: var(--tile); color: var(--text); }
+button.primary { background: var(--accent); color: #1a1a1a; font-weight: 700; }
+button:hover { filter: brightness(1.1); }
+section > button.primary { display: block; width: 100%; margin-top: 16px; }
+
+.tiles { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; margin: 28px 0; }
+.tiles span { flex: 0 1 calc((100% - 52px) / 14); min-width: 0; max-width: 40px; aspect-ratio: 5 / 6; display: grid; place-items: center;
+  background: var(--tile); border-radius: 6px; font-size: clamp(0.8rem, 4.2vw, 1.5rem); font-weight: 700; }
+.tiles.small span { max-width: 28px; font-size: 1.05rem; }
+.tiles.shake { animation: shake 0.35s; }
+@keyframes shake { 20%, 60% { transform: translateX(-8px); } 40%, 80% { transform: translateX(8px); } }
+
+.status { display: flex; justify-content: space-between; color: var(--muted); font-weight: 600; }
+.clock { font-variant-numeric: tabular-nums; color: var(--text); }
+.clock.low { color: var(--bad); }
+.bar { height: 6px; background: var(--tile); border-radius: 3px; overflow: hidden; margin-top: 8px; }
+#bar-fill { height: 100%; background: var(--accent); width: 100%; transition: width 0.25s linear; }
+
+form input { width: 100%; font: inherit; font-size: 1.15rem; padding: 14px; border-radius: 10px;
+  border: 2px solid var(--tile); background: var(--panel); color: var(--text); }
+form input:focus { outline: none; border-color: var(--accent); }
+.buttons { display: flex; gap: 8px; margin-top: 10px; }
+.buttons .primary { flex: 1; }
+.feedback { min-height: 1.5em; text-align: center; font-weight: 600; }
+.feedback.good { color: var(--good); }
+.feedback.bad { color: var(--bad); }
+
+.dots { list-style: none; padding: 0; display: flex; justify-content: center; gap: 6px; }
+.dots li { width: 14px; height: 14px; border-radius: 50%; background: var(--tile); }
+.dots li.current { outline: 2px solid var(--accent); }
+.dots li.good { background: var(--good); }
+.dots li.bad { background: var(--bad); }
+
+.score-box, .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; }
+.stats { grid-template-columns: repeat(4, 1fr); }
+.score-box div, .stats div { background: var(--panel); border-radius: 12px; padding: 12px 4px; }
+.score-box strong, .stats strong { display: block; font-size: 1.6rem; }
+.score-box span, .stats span { color: var(--muted); font-size: 0.85rem; }
+.share-preview { background: var(--panel); border-radius: 12px; padding: 16px; text-align: center;
+  font: inherit; line-height: 1.6; white-space: pre-wrap; margin: 16px 0 0; }
+
+.answers { padding: 0; list-style: none; counter-reset: a; }
+.answers li { background: var(--panel); border-radius: 10px; padding: 10px 14px; margin-bottom: 6px;
+  display: grid; grid-template-columns: 28px 1fr auto; gap: 2px 10px; align-items: center; }
+.answers .em { grid-row: span 2; font-size: 1.2rem; }
+.answers .title { font-weight: 700; }
+.answers .meta { color: var(--muted); font-size: 0.85rem; grid-column: 2; }
+.answers .pts { grid-row: 1 / span 2; grid-column: 3; color: var(--muted); font-weight: 600; }
+.answers .year { color: var(--muted); font-weight: 400; }

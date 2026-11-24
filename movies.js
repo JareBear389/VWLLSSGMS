@@ -1,0 +1,3729 @@
+// Generated from data/movies.json. Each entry: { title, year, puzzle, alternates }.
+// Regenerate with build-movies.py. Only append after launch, because
+// reordering changes which titles future days get.
+window.MOVIES = [
+{
+"title": "The Godfather",
+"year": 1972,
+"puzzle": "THGDFTHR",
+"alternates": []
+},
+{
+"title": "The Godfather Part II",
+"year": 1974,
+"puzzle": "THGDFTHRPRT2",
+"alternates": [
+"The Godfather 2",
+"Godfather II"
+]
+},
+{
+"title": "The Shawshank Redemption",
+"year": 1994,
+"puzzle": "THSHWSHNKRDMPTN",
+"alternates": []
+},
+{
+"title": "Pulp Fiction",
+"year": 1994,
+"puzzle": "PLPFCTN",
+"alternates": []
+},
+{
+"title": "The Dark Knight",
+"year": 2008,
+"puzzle": "THDRKKNGHT",
+"alternates": []
+},
+{
+"title": "Forrest Gump",
+"year": 1994,
+"puzzle": "FRRSTGMP",
+"alternates": []
+},
+{
+"title": "Fight Club",
+"year": 1999,
+"puzzle": "FGHTCLB",
+"alternates": []
+},
+{
+"title": "Inception",
+"year": 2010,
+"puzzle": "NCPTN",
+"alternates": []
+},
+{
+"title": "The Matrix",
+"year": 1999,
+"puzzle": "THMTRX",
+"alternates": []
+},
+{
+"title": "Goodfellas",
+"year": 1990,
+"puzzle": "GDFLLS",
+"alternates": [
+"Good Fellas"
+]
+},
+{
+"title": "Star Wars",
+"year": 1977,
+"puzzle": "STRWRS",
+"alternates": [
+"Star Wars: A New Hope",
+"A New Hope",
+"Star Wars Episode IV"
+]
+},
+{
+"title": "The Empire Strikes Back",
+"year": 1980,
+"puzzle": "THMPRSTRKSBCK",
+"alternates": [
+"Star Wars: The Empire Strikes Back"
+]
+},
+{
+"title": "Return of the Jedi",
+"year": 1983,
+"puzzle": "RTRNFTHJD",
+"alternates": [
+"Star Wars: Return of the Jedi"
+]
+},
+{
+"title": "The Silence of the Lambs",
+"year": 1991,
+"puzzle": "THSLNCFTHLMBS",
+"alternates": []
+},
+{
+"title": "Schindler's List",
+"year": 1993,
+"puzzle": "SCHNDLRSLST",
+"alternates": []
+},
+{
+"title": "Jurassic Park",
+"year": 1993,
+"puzzle": "JRSSCPRK",
+"alternates": []
+},
+{
+"title": "Titanic",
+"year": 1997,
+"puzzle": "TTNC",
+"alternates": []
+},
+{
+"title": "Gladiator",
+"year": 2000,
+"puzzle": "GLDTR",
+"alternates": []
+},
+{
+"title": "The Lion King",
+"year": 1994,
+"puzzle": "THLNKNG",
+"alternates": []
+},
+{
+"title": "Back to the Future",
+"year": 1985,
+"puzzle": "BCKTTHFTR",
+"alternates": []
+},
+{
+"title": "Raiders of the Lost Ark",
+"year": 1981,
+"puzzle": "RDRSFTHLSTRK",
+"alternates": [
+"Indiana Jones and the Raiders of the Lost Ark"
+]
+},
+{
+"title": "Casablanca",
+"year": 1942,
+"puzzle": "CSBLNC",
+"alternates": []
+},
+{
+"title": "E.T. the Extra-Terrestrial",
+"year": 1982,
+"puzzle": "TTHXTRTRRSTRL",
+"alternates": [
+"ET",
+"E.T."
+]
+},
+{
+"title": "Saving Private Ryan",
+"year": 1998,
+"puzzle": "SVNGPRVTRYN",
+"alternates": []
+},
+{
+"title": "The Terminator",
+"year": 1984,
+"puzzle": "THTRMNTR",
+"alternates": []
+},
+{
+"title": "Terminator 2: Judgment Day",
+"year": 1991,
+"puzzle": "TRMNTR2JDGMNTDY",
+"alternates": [
+"Terminator 2",
+"T2"
+]
+},
+{
+"title": "Rocky",
+"year": 1976,
+"puzzle": "RCKY",
+"alternates": []
+},
+{
+"title": "Toy Story",
+"year": 1995,
+"puzzle": "TYSTRY",
+"alternates": []
+},
+{
+"title": "Finding Nemo",
+"year": 2003,
+"puzzle": "FNDNGNM",
+"alternates": []
+},
+{
+"title": "The Wizard of Oz",
+"year": 1939,
+"puzzle": "THWZRDFZ",
+"alternates": []
+},
+{
+"title": "Gone with the Wind",
+"year": 1939,
+"puzzle": "GNWTHTHWND",
+"alternates": []
+},
+{
+"title": "Citizen Kane",
+"year": 1941,
+"puzzle": "CTZNKN",
+"alternates": []
+},
+{
+"title": "Psycho",
+"year": 1960,
+"puzzle": "PSYCH",
+"alternates": []
+},
+{
+"title": "Vertigo",
+"year": 1958,
+"puzzle": "VRTG",
+"alternates": []
+},
+{
+"title": "Rear Window",
+"year": 1954,
+"puzzle": "RRWNDW",
+"alternates": []
+},
+{
+"title": "North by Northwest",
+"year": 1959,
+"puzzle": "NRTHBYNRTHWST",
+"alternates": []
+},
+{
+"title": "The Shining",
+"year": 1980,
+"puzzle": "THSHNNG",
+"alternates": []
+},
+{
+"title": "A Clockwork Orange",
+"year": 1971,
+"puzzle": "CLCKWRKRNG",
+"alternates": []
+},
+{
+"title": "2001: A Space Odyssey",
+"year": 1968,
+"puzzle": "2001SPCDYSSY",
+"alternates": [
+"2001 A Space Odyssey",
+"Two Thousand One A Space Odyssey"
+]
+},
+{
+"title": "Apocalypse Now",
+"year": 1979,
+"puzzle": "PCLYPSNW",
+"alternates": []
+},
+{
+"title": "Taxi Driver",
+"year": 1976,
+"puzzle": "TXDRVR",
+"alternates": []
+},
+{
+"title": "Raging Bull",
+"year": 1980,
+"puzzle": "RGNGBLL",
+"alternates": []
+},
+{
+"title": "The Departed",
+"year": 2006,
+"puzzle": "THDPRTD",
+"alternates": []
+},
+{
+"title": "Scarface",
+"year": 1983,
+"puzzle": "SCRFC",
+"alternates": []
+},
+{
+"title": "The Usual Suspects",
+"year": 1995,
+"puzzle": "THSLSSPCTS",
+"alternates": []
+},
+{
+"title": "Reservoir Dogs",
+"year": 1992,
+"puzzle": "RSRVRDGS",
+"alternates": []
+},
+{
+"title": "Kill Bill",
+"year": 2003,
+"puzzle": "KLLBLL",
+"alternates": [
+"Kill Bill Vol. 1",
+"Kill Bill Volume 1"
+]
+},
+{
+"title": "Inglourious Basterds",
+"year": 2009,
+"puzzle": "NGLRSBSTRDS",
+"alternates": [
+"Inglorious Bastards"
+]
+},
+{
+"title": "Django Unchained",
+"year": 2012,
+"puzzle": "DJNGNCHND",
+"alternates": []
+},
+{
+"title": "Jackie Brown",
+"year": 1997,
+"puzzle": "JCKBRWN",
+"alternates": []
+},
+{
+"title": "Once Upon a Time in Hollywood",
+"year": 2019,
+"puzzle": "NCPNTMNHLLYWD",
+"alternates": [
+"Once Upon a Time... in Hollywood"
+]
+},
+{
+"title": "The Big Lebowski",
+"year": 1998,
+"puzzle": "THBGLBWSK",
+"alternates": []
+},
+{
+"title": "No Country for Old Men",
+"year": 2007,
+"puzzle": "NCNTRYFRLDMN",
+"alternates": []
+},
+{
+"title": "O Brother, Where Art Thou?",
+"year": 2000,
+"puzzle": "BRTHRWHRRTTH",
+"alternates": []
+},
+{
+"title": "Groundhog Day",
+"year": 1993,
+"puzzle": "GRNDHGDY",
+"alternates": []
+},
+{
+"title": "Ghostbusters",
+"year": 1984,
+"puzzle": "GHSTBSTRS",
+"alternates": [
+"Ghost Busters"
+]
+},
+{
+"title": "Caddyshack",
+"year": 1980,
+"puzzle": "CDDYSHCK",
+"alternates": []
+},
+{
+"title": "Animal House",
+"year": 1978,
+"puzzle": "NMLHS",
+"alternates": [
+"National Lampoon's Animal House"
+]
+},
+{
+"title": "The Blues Brothers",
+"year": 1980,
+"puzzle": "THBLSBRTHRS",
+"alternates": []
+},
+{
+"title": "Ferris Bueller's Day Off",
+"year": 1986,
+"puzzle": "FRRSBLLRSDYFF",
+"alternates": []
+},
+{
+"title": "The Breakfast Club",
+"year": 1985,
+"puzzle": "THBRKFSTCLB",
+"alternates": []
+},
+{
+"title": "Sixteen Candles",
+"year": 1984,
+"puzzle": "SXTNCNDLS",
+"alternates": [
+"16 Candles"
+]
+},
+{
+"title": "Home Alone",
+"year": 1990,
+"puzzle": "HMLN",
+"alternates": []
+},
+{
+"title": "Mrs. Doubtfire",
+"year": 1993,
+"puzzle": "MRSDBTFR",
+"alternates": [
+"Mrs Doubtfire"
+]
+},
+{
+"title": "The Princess Bride",
+"year": 1987,
+"puzzle": "THPRNCSSBRD",
+"alternates": []
+},
+{
+"title": "Stand by Me",
+"year": 1986,
+"puzzle": "STNDBYM",
+"alternates": []
+},
+{
+"title": "The Goonies",
+"year": 1985,
+"puzzle": "THGNS",
+"alternates": []
+},
+{
+"title": "Gremlins",
+"year": 1984,
+"puzzle": "GRMLNS",
+"alternates": []
+},
+{
+"title": "Top Gun",
+"year": 1986,
+"puzzle": "TPGN",
+"alternates": []
+},
+{
+"title": "Top Gun: Maverick",
+"year": 2022,
+"puzzle": "TPGNMVRCK",
+"alternates": [
+"Top Gun 2"
+]
+},
+{
+"title": "Dirty Dancing",
+"year": 1987,
+"puzzle": "DRTYDNCNG",
+"alternates": []
+},
+{
+"title": "Pretty Woman",
+"year": 1990,
+"puzzle": "PRTTYWMN",
+"alternates": []
+},
+{
+"title": "Ghost",
+"year": 1990,
+"puzzle": "GHST",
+"alternates": []
+},
+{
+"title": "Footloose",
+"year": 1984,
+"puzzle": "FTLS",
+"alternates": []
+},
+{
+"title": "Flashdance",
+"year": 1983,
+"puzzle": "FLSHDNC",
+"alternates": []
+},
+{
+"title": "Splash",
+"year": 1984,
+"puzzle": "SPLSH",
+"alternates": []
+},
+{
+"title": "Cast Away",
+"year": 2000,
+"puzzle": "CSTWY",
+"alternates": [
+"Castaway"
+]
+},
+{
+"title": "Philadelphia",
+"year": 1993,
+"puzzle": "PHLDLPH",
+"alternates": []
+},
+{
+"title": "Apollo 13",
+"year": 1995,
+"puzzle": "PLL13",
+"alternates": [
+"Apollo Thirteen"
+]
+},
+{
+"title": "The Green Mile",
+"year": 1999,
+"puzzle": "THGRNML",
+"alternates": []
+},
+{
+"title": "Catch Me If You Can",
+"year": 2002,
+"puzzle": "CTCHMFYCN",
+"alternates": []
+},
+{
+"title": "The Terminal",
+"year": 2004,
+"puzzle": "THTRMNL",
+"alternates": []
+},
+{
+"title": "Sleepless in Seattle",
+"year": 1993,
+"puzzle": "SLPLSSNSTTL",
+"alternates": []
+},
+{
+"title": "You've Got Mail",
+"year": 1998,
+"puzzle": "YVGTML",
+"alternates": []
+},
+{
+"title": "When Harry Met Sally",
+"year": 1989,
+"puzzle": "WHNHRRYMTSLLY",
+"alternates": [
+"When Harry Met Sally..."
+]
+},
+{
+"title": "Notting Hill",
+"year": 1999,
+"puzzle": "NTTNGHLL",
+"alternates": []
+},
+{
+"title": "Four Weddings and a Funeral",
+"year": 1994,
+"puzzle": "FRWDDNGSNDFNRL",
+"alternates": [
+"4 Weddings and a Funeral"
+]
+},
+{
+"title": "Love Actually",
+"year": 2003,
+"puzzle": "LVCTLLY",
+"alternates": []
+},
+{
+"title": "Bridget Jones's Diary",
+"year": 2001,
+"puzzle": "BRDGTJNSSDRY",
+"alternates": [
+"Bridget Jones Diary"
+]
+},
+{
+"title": "The Notebook",
+"year": 2004,
+"puzzle": "THNTBK",
+"alternates": []
+},
+{
+"title": "The Avengers",
+"year": 2012,
+"puzzle": "THVNGRS",
+"alternates": [
+"Avengers",
+"Marvel's The Avengers"
+]
+},
+{
+"title": "Avengers: Endgame",
+"year": 2019,
+"puzzle": "VNGRSNDGM",
+"alternates": [
+"Avengers Endgame",
+"Endgame"
+]
+},
+{
+"title": "Avengers: Infinity War",
+"year": 2018,
+"puzzle": "VNGRSNFNTYWR",
+"alternates": [
+"Infinity War"
+]
+},
+{
+"title": "Iron Man",
+"year": 2008,
+"puzzle": "RNMN",
+"alternates": []
+},
+{
+"title": "Black Panther",
+"year": 2018,
+"puzzle": "BLCKPNTHR",
+"alternates": []
+},
+{
+"title": "Captain America: The Winter Soldier",
+"year": 2014,
+"puzzle": "CPTNMRCTHWNTRSLDR",
+"alternates": [
+"The Winter Soldier",
+"Winter Soldier"
+]
+},
+{
+"title": "Guardians of the Galaxy",
+"year": 2014,
+"puzzle": "GRDNSFTHGLXY",
+"alternates": []
+},
+{
+"title": "Thor: Ragnarok",
+"year": 2017,
+"puzzle": "THRRGNRK",
+"alternates": [
+"Thor Ragnarok"
+]
+},
+{
+"title": "Spider-Man",
+"year": 2002,
+"puzzle": "SPDRMN",
+"alternates": [
+"Spiderman"
+]
+},
+{
+"title": "Spider-Man: Into the Spider-Verse",
+"year": 2018,
+"puzzle": "SPDRMNNTTHSPDRVRS",
+"alternates": [
+"Into the Spider-Verse",
+"Spiderman Into the Spiderverse"
+]
+},
+{
+"title": "Spider-Man: No Way Home",
+"year": 2021,
+"puzzle": "SPDRMNNWYHM",
+"alternates": [
+"No Way Home"
+]
+},
+{
+"title": "Batman Begins",
+"year": 2005,
+"puzzle": "BTMNBGNS",
+"alternates": []
+},
+{
+"title": "The Dark Knight Rises",
+"year": 2012,
+"puzzle": "THDRKKNGHTRSS",
+"alternates": []
+},
+{
+"title": "Batman",
+"year": 1989,
+"puzzle": "BTMN",
+"alternates": []
+},
+{
+"title": "Wonder Woman",
+"year": 2017,
+"puzzle": "WNDRWMN",
+"alternates": []
+},
+{
+"title": "Man of Steel",
+"year": 2013,
+"puzzle": "MNFSTL",
+"alternates": []
+},
+{
+"title": "Superman",
+"year": 1978,
+"puzzle": "SPRMN",
+"alternates": [
+"Superman: The Movie"
+]
+},
+{
+"title": "Deadpool",
+"year": 2016,
+"puzzle": "DDPL",
+"alternates": [
+"Dead Pool"
+]
+},
+{
+"title": "The Incredibles",
+"year": 2004,
+"puzzle": "THNCRDBLS",
+"alternates": [
+"Incredibles"
+]
+},
+{
+"title": "Ratatouille",
+"year": 2007,
+"puzzle": "RTTLL",
+"alternates": []
+},
+{
+"title": "Monsters, Inc.",
+"year": 2001,
+"puzzle": "MNSTRSNC",
+"alternates": [
+"Monsters Inc",
+"Monsters Incorporated"
+]
+},
+{
+"title": "Inside Out",
+"year": 2015,
+"puzzle": "NSDT",
+"alternates": []
+},
+{
+"title": "Frozen",
+"year": 2013,
+"puzzle": "FRZN",
+"alternates": []
+},
+{
+"title": "Tangled",
+"year": 2010,
+"puzzle": "TNGLD",
+"alternates": []
+},
+{
+"title": "Encanto",
+"year": 2021,
+"puzzle": "NCNT",
+"alternates": []
+},
+{
+"title": "Aladdin",
+"year": 1992,
+"puzzle": "LDDN",
+"alternates": []
+},
+{
+"title": "Beauty and the Beast",
+"year": 1991,
+"puzzle": "BTYNDTHBST",
+"alternates": []
+},
+{
+"title": "The Little Mermaid",
+"year": 1989,
+"puzzle": "THLTTLMRMD",
+"alternates": []
+},
+{
+"title": "Cinderella",
+"year": 1950,
+"puzzle": "CNDRLL",
+"alternates": []
+},
+{
+"title": "Snow White and the Seven Dwarfs",
+"year": 1937,
+"puzzle": "SNWWHTNDTHSVNDWRFS",
+"alternates": [
+"Snow White"
+]
+},
+{
+"title": "Pinocchio",
+"year": 1940,
+"puzzle": "PNCCH",
+"alternates": []
+},
+{
+"title": "Peter Pan",
+"year": 1953,
+"puzzle": "PTRPN",
+"alternates": []
+},
+{
+"title": "Sleeping Beauty",
+"year": 1959,
+"puzzle": "SLPNGBTY",
+"alternates": []
+},
+{
+"title": "Lady and the Tramp",
+"year": 1955,
+"puzzle": "LDYNDTHTRMP",
+"alternates": []
+},
+{
+"title": "One Hundred and One Dalmatians",
+"year": 1961,
+"puzzle": "NHNDRDNDNDLMTNS",
+"alternates": [
+"101 Dalmatians",
+"101 Dalmations"
+]
+},
+{
+"title": "The Jungle Book",
+"year": 1967,
+"puzzle": "THJNGLBK",
+"alternates": []
+},
+{
+"title": "Mary Poppins",
+"year": 1964,
+"puzzle": "MRYPPPNS",
+"alternates": []
+},
+{
+"title": "Pocahontas",
+"year": 1995,
+"puzzle": "PCHNTS",
+"alternates": []
+},
+{
+"title": "Hercules",
+"year": 1997,
+"puzzle": "HRCLS",
+"alternates": []
+},
+{
+"title": "Tarzan",
+"year": 1999,
+"puzzle": "TRZN",
+"alternates": []
+},
+{
+"title": "Lilo & Stitch",
+"year": 2002,
+"puzzle": "LLSTTCH",
+"alternates": [
+"Lilo and Stitch"
+]
+},
+{
+"title": "Shrek",
+"year": 2001,
+"puzzle": "SHRK",
+"alternates": []
+},
+{
+"title": "Shrek 2",
+"year": 2004,
+"puzzle": "SHRK2",
+"alternates": [
+"Shrek Two"
+]
+},
+{
+"title": "Kung Fu Panda",
+"year": 2008,
+"puzzle": "KNGFPND",
+"alternates": []
+},
+{
+"title": "How to Train Your Dragon",
+"year": 2010,
+"puzzle": "HWTTRNYRDRGN",
+"alternates": []
+},
+{
+"title": "Madagascar",
+"year": 2005,
+"puzzle": "MDGSCR",
+"alternates": []
+},
+{
+"title": "Despicable Me",
+"year": 2010,
+"puzzle": "DSPCBLM",
+"alternates": []
+},
+{
+"title": "Minions",
+"year": 2015,
+"puzzle": "MNNS",
+"alternates": []
+},
+{
+"title": "The Lego Movie",
+"year": 2014,
+"puzzle": "THLGMV",
+"alternates": [
+"Lego Movie"
+]
+},
+{
+"title": "Spirited Away",
+"year": 2001,
+"puzzle": "SPRTDWY",
+"alternates": []
+},
+{
+"title": "My Neighbor Totoro",
+"year": 1988,
+"puzzle": "MYNGHBRTTR",
+"alternates": [
+"Totoro"
+]
+},
+{
+"title": "Harry Potter and the Sorcerer's Stone",
+"year": 2001,
+"puzzle": "HRRYPTTRNDTHSRCRRSSTN",
+"alternates": [
+"Harry Potter and the Philosopher's Stone",
+"Sorcerer's Stone",
+"Philosopher's Stone"
+]
+},
+{
+"title": "Harry Potter and the Chamber of Secrets",
+"year": 2002,
+"puzzle": "HRRYPTTRNDTHCHMBRFSCRTS",
+"alternates": [
+"Chamber of Secrets"
+]
+},
+{
+"title": "Harry Potter and the Prisoner of Azkaban",
+"year": 2004,
+"puzzle": "HRRYPTTRNDTHPRSNRFZKBN",
+"alternates": [
+"Prisoner of Azkaban"
+]
+},
+{
+"title": "Harry Potter and the Goblet of Fire",
+"year": 2005,
+"puzzle": "HRRYPTTRNDTHGBLTFFR",
+"alternates": [
+"Goblet of Fire"
+]
+},
+{
+"title": "Harry Potter and the Deathly Hallows",
+"year": 2010,
+"puzzle": "HRRYPTTRNDTHDTHLYHLLWS",
+"alternates": [
+"Deathly Hallows"
+]
+},
+{
+"title": "The Lord of the Rings: The Fellowship of the Ring",
+"year": 2001,
+"puzzle": "THLRDFTHRNGSTHFLLWSHPFTHRNG",
+"alternates": [
+"The Fellowship of the Ring",
+"Fellowship of the Ring",
+"Lord of the Rings"
+]
+},
+{
+"title": "The Lord of the Rings: The Two Towers",
+"year": 2002,
+"puzzle": "THLRDFTHRNGSTHTWTWRS",
+"alternates": [
+"The Two Towers",
+"Two Towers"
+]
+},
+{
+"title": "The Lord of the Rings: The Return of the King",
+"year": 2003,
+"puzzle": "THLRDFTHRNGSTHRTRNFTHKNG",
+"alternates": [
+"The Return of the King",
+"Return of the King"
+]
+},
+{
+"title": "The Hobbit",
+"year": 2012,
+"puzzle": "THHBBT",
+"alternates": [
+"The Hobbit: An Unexpected Journey"
+]
+},
+{
+"title": "Pirates of the Caribbean",
+"year": 2003,
+"puzzle": "PRTSFTHCRBBN",
+"alternates": [
+"Pirates of the Caribbean: The Curse of the Black Pearl"
+]
+},
+{
+"title": "Indiana Jones and the Temple of Doom",
+"year": 1984,
+"puzzle": "NDNJNSNDTHTMPLFDM",
+"alternates": [
+"Temple of Doom"
+]
+},
+{
+"title": "Indiana Jones and the Last Crusade",
+"year": 1989,
+"puzzle": "NDNJNSNDTHLSTCRSD",
+"alternates": [
+"The Last Crusade",
+"Last Crusade"
+]
+},
+{
+"title": "Close Encounters of the Third Kind",
+"year": 1977,
+"puzzle": "CLSNCNTRSFTHTHRDKND",
+"alternates": [
+"Close Encounters"
+]
+},
+{
+"title": "Jurassic World",
+"year": 2015,
+"puzzle": "JRSSCWRLD",
+"alternates": []
+},
+{
+"title": "Mission: Impossible",
+"year": 1996,
+"puzzle": "MSSNMPSSBL",
+"alternates": [
+"Mission Impossible"
+]
+},
+{
+"title": "The Bourne Identity",
+"year": 2002,
+"puzzle": "THBRNDNTTY",
+"alternates": [
+"Bourne Identity"
+]
+},
+{
+"title": "Die Hard",
+"year": 1988,
+"puzzle": "DHRD",
+"alternates": []
+},
+{
+"title": "Lethal Weapon",
+"year": 1987,
+"puzzle": "LTHLWPN",
+"alternates": []
+},
+{
+"title": "Point Break",
+"year": 1991,
+"puzzle": "PNTBRK",
+"alternates": []
+},
+{
+"title": "Face/Off",
+"year": 1997,
+"puzzle": "FCFF",
+"alternates": [
+"Face Off",
+"FaceOff"
+]
+},
+{
+"title": "The Rock",
+"year": 1996,
+"puzzle": "THRCK",
+"alternates": []
+},
+{
+"title": "Armageddon",
+"year": 1998,
+"puzzle": "RMGDDN",
+"alternates": []
+},
+{
+"title": "Independence Day",
+"year": 1996,
+"puzzle": "NDPNDNCDY",
+"alternates": [
+"ID4"
+]
+},
+{
+"title": "Men in Black",
+"year": 1997,
+"puzzle": "MNNBLCK",
+"alternates": [
+"MIB"
+]
+},
+{
+"title": "Bad Boys",
+"year": 1995,
+"puzzle": "BDBYS",
+"alternates": []
+},
+{
+"title": "The Fast and the Furious",
+"year": 2001,
+"puzzle": "THFSTNDTHFRS",
+"alternates": [
+"Fast and the Furious",
+"Fast and Furious"
+]
+},
+{
+"title": "Mad Max: Fury Road",
+"year": 2015,
+"puzzle": "MDMXFRYRD",
+"alternates": [
+"Fury Road",
+"Mad Max Fury Road"
+]
+},
+{
+"title": "Mad Max",
+"year": 1979,
+"puzzle": "MDMX",
+"alternates": []
+},
+{
+"title": "John Wick",
+"year": 2014,
+"puzzle": "JHNWCK",
+"alternates": []
+},
+{
+"title": "Gravity",
+"year": 2013,
+"puzzle": "GRVTY",
+"alternates": []
+},
+{
+"title": "Interstellar",
+"year": 2014,
+"puzzle": "NTRSTLLR",
+"alternates": []
+},
+{
+"title": "The Martian",
+"year": 2015,
+"puzzle": "THMRTN",
+"alternates": [
+"Martian"
+]
+},
+{
+"title": "Arrival",
+"year": 2016,
+"puzzle": "RRVL",
+"alternates": []
+},
+{
+"title": "Blade Runner",
+"year": 1982,
+"puzzle": "BLDRNNR",
+"alternates": []
+},
+{
+"title": "Blade Runner 2049",
+"year": 2017,
+"puzzle": "BLDRNNR2049",
+"alternates": []
+},
+{
+"title": "Total Recall",
+"year": 1990,
+"puzzle": "TTLRCLL",
+"alternates": []
+},
+{
+"title": "RoboCop",
+"year": 1987,
+"puzzle": "RBCP",
+"alternates": [
+"Robo Cop"
+]
+},
+{
+"title": "Predator",
+"year": 1987,
+"puzzle": "PRDTR",
+"alternates": []
+},
+{
+"title": "The Thing",
+"year": 1982,
+"puzzle": "THTHNG",
+"alternates": []
+},
+{
+"title": "Halloween",
+"year": 1978,
+"puzzle": "HLLWN",
+"alternates": []
+},
+{
+"title": "A Nightmare on Elm Street",
+"year": 1984,
+"puzzle": "NGHTMRNLMSTRT",
+"alternates": [
+"Nightmare on Elm Street"
+]
+},
+{
+"title": "Friday the 13th",
+"year": 1980,
+"puzzle": "FRDYTH13TH",
+"alternates": [
+"Friday the Thirteenth"
+]
+},
+{
+"title": "The Exorcist",
+"year": 1973,
+"puzzle": "THXRCST",
+"alternates": []
+},
+{
+"title": "Poltergeist",
+"year": 1982,
+"puzzle": "PLTRGST",
+"alternates": []
+},
+{
+"title": "Scream",
+"year": 1996,
+"puzzle": "SCRM",
+"alternates": []
+},
+{
+"title": "The Sixth Sense",
+"year": 1999,
+"puzzle": "THSXTHSNS",
+"alternates": [
+"Sixth Sense",
+"6th Sense"
+]
+},
+{
+"title": "The Blair Witch Project",
+"year": 1999,
+"puzzle": "THBLRWTCHPRJCT",
+"alternates": [
+"Blair Witch Project",
+"Blair Witch"
+]
+},
+{
+"title": "The Conjuring",
+"year": 2013,
+"puzzle": "THCNJRNG",
+"alternates": []
+},
+{
+"title": "Hereditary",
+"year": 2018,
+"puzzle": "HRDTRY",
+"alternates": []
+},
+{
+"title": "Misery",
+"year": 1990,
+"puzzle": "MSRY",
+"alternates": []
+},
+{
+"title": "Rosemary's Baby",
+"year": 1968,
+"puzzle": "RSMRYSBBY",
+"alternates": []
+},
+{
+"title": "The Birds",
+"year": 1963,
+"puzzle": "THBRDS",
+"alternates": []
+},
+{
+"title": "Night of the Living Dead",
+"year": 1968,
+"puzzle": "NGHTFTHLVNGDD",
+"alternates": []
+},
+{
+"title": "Dawn of the Dead",
+"year": 1978,
+"puzzle": "DWNFTHDD",
+"alternates": []
+},
+{
+"title": "Shaun of the Dead",
+"year": 2004,
+"puzzle": "SHNFTHDD",
+"alternates": []
+},
+{
+"title": "Zombieland",
+"year": 2009,
+"puzzle": "ZMBLND",
+"alternates": [
+"Zombie Land"
+]
+},
+{
+"title": "Beetlejuice",
+"year": 1988,
+"puzzle": "BTLJC",
+"alternates": [
+"Beetle Juice"
+]
+},
+{
+"title": "Edward Scissorhands",
+"year": 1990,
+"puzzle": "DWRDSCSSRHNDS",
+"alternates": []
+},
+{
+"title": "The Nightmare Before Christmas",
+"year": 1993,
+"puzzle": "THNGHTMRBFRCHRSTMS",
+"alternates": [
+"Nightmare Before Christmas"
+]
+},
+{
+"title": "Charlie and the Chocolate Factory",
+"year": 2005,
+"puzzle": "CHRLNDTHCHCLTFCTRY",
+"alternates": []
+},
+{
+"title": "Willy Wonka & the Chocolate Factory",
+"year": 1971,
+"puzzle": "WLLYWNKTHCHCLTFCTRY",
+"alternates": [
+"Willy Wonka and the Chocolate Factory",
+"Willy Wonka"
+]
+},
+{
+"title": "It's a Wonderful Life",
+"year": 1946,
+"puzzle": "TSWNDRFLLF",
+"alternates": [
+"Its a Wonderful Life"
+]
+},
+{
+"title": "A Christmas Story",
+"year": 1983,
+"puzzle": "CHRSTMSSTRY",
+"alternates": [
+"Christmas Story"
+]
+},
+{
+"title": "National Lampoon's Christmas Vacation",
+"year": 1989,
+"puzzle": "NTNLLMPNSCHRSTMSVCTN",
+"alternates": [
+"Christmas Vacation"
+]
+},
+{
+"title": "Miracle on 34th Street",
+"year": 1947,
+"puzzle": "MRCLN34THSTRT",
+"alternates": [
+"Miracle on Thirty-Fourth Street"
+]
+},
+{
+"title": "The Polar Express",
+"year": 2004,
+"puzzle": "THPLRXPRSS",
+"alternates": [
+"Polar Express"
+]
+},
+{
+"title": "The Grinch",
+"year": 2018,
+"puzzle": "THGRNCH",
+"alternates": [
+"How the Grinch Stole Christmas"
+]
+},
+{
+"title": "The Sound of Music",
+"year": 1965,
+"puzzle": "THSNDFMSC",
+"alternates": [
+"Sound of Music"
+]
+},
+{
+"title": "Singin' in the Rain",
+"year": 1952,
+"puzzle": "SNGNNTHRN",
+"alternates": [
+"Singing in the Rain"
+]
+},
+{
+"title": "West Side Story",
+"year": 1961,
+"puzzle": "WSTSDSTRY",
+"alternates": []
+},
+{
+"title": "The Greatest Showman",
+"year": 2017,
+"puzzle": "THGRTSTSHWMN",
+"alternates": [
+"Greatest Showman"
+]
+},
+{
+"title": "La La Land",
+"year": 2016,
+"puzzle": "LLLND",
+"alternates": [
+"LaLaLand"
+]
+},
+{
+"title": "Chicago",
+"year": 2002,
+"puzzle": "CHCG",
+"alternates": []
+},
+{
+"title": "Moulin Rouge!",
+"year": 2001,
+"puzzle": "MLNRG",
+"alternates": [
+"Moulin Rouge"
+]
+},
+{
+"title": "Mamma Mia!",
+"year": 2008,
+"puzzle": "MMMM",
+"alternates": [
+"Mamma Mia",
+"Mama Mia"
+]
+},
+{
+"title": "Les Misérables",
+"year": 2012,
+"puzzle": "LSMSRBLS",
+"alternates": [
+"Les Miserables"
+]
+},
+{
+"title": "The Phantom of the Opera",
+"year": 2004,
+"puzzle": "THPHNTMFTHPR",
+"alternates": [
+"Phantom of the Opera"
+]
+},
+{
+"title": "Hairspray",
+"year": 2007,
+"puzzle": "HRSPRY",
+"alternates": [
+"Hair Spray"
+]
+},
+{
+"title": "Rocky Horror Picture Show",
+"year": 1975,
+"puzzle": "RCKYHRRRPCTRSHW",
+"alternates": [
+"The Rocky Horror Picture Show"
+]
+},
+{
+"title": "Bohemian Rhapsody",
+"year": 2018,
+"puzzle": "BHMNRHPSDY",
+"alternates": []
+},
+{
+"title": "A Star Is Born",
+"year": 2018,
+"puzzle": "STRSBRN",
+"alternates": [
+"Star Is Born"
+]
+},
+{
+"title": "Walk the Line",
+"year": 2005,
+"puzzle": "WLKTHLN",
+"alternates": []
+},
+{
+"title": "Whiplash",
+"year": 2014,
+"puzzle": "WHPLSH",
+"alternates": []
+},
+{
+"title": "Black Swan",
+"year": 2010,
+"puzzle": "BLCKSWN",
+"alternates": []
+},
+{
+"title": "The Wolf of Wall Street",
+"year": 2013,
+"puzzle": "THWLFFWLLSTRT",
+"alternates": [
+"Wolf of Wall Street"
+]
+},
+{
+"title": "Wall Street",
+"year": 1987,
+"puzzle": "WLLSTRT",
+"alternates": []
+},
+{
+"title": "The Social Network",
+"year": 2010,
+"puzzle": "THSCLNTWRK",
+"alternates": [
+"Social Network"
+]
+},
+{
+"title": "Moneyball",
+"year": 2011,
+"puzzle": "MNYBLL",
+"alternates": [
+"Money Ball"
+]
+},
+{
+"title": "The Big Short",
+"year": 2015,
+"puzzle": "THBGSHRT",
+"alternates": [
+"Big Short"
+]
+},
+{
+"title": "Jerry Maguire",
+"year": 1996,
+"puzzle": "JRRYMGR",
+"alternates": []
+},
+{
+"title": "Good Will Hunting",
+"year": 1997,
+"puzzle": "GDWLLHNTNG",
+"alternates": []
+},
+{
+"title": "Dead Poets Society",
+"year": 1989,
+"puzzle": "DDPTSSCTY",
+"alternates": []
+},
+{
+"title": "A Beautiful Mind",
+"year": 2001,
+"puzzle": "BTFLMND",
+"alternates": [
+"Beautiful Mind"
+]
+},
+{
+"title": "The Pursuit of Happyness",
+"year": 2006,
+"puzzle": "THPRSTFHPPYNSS",
+"alternates": [
+"Pursuit of Happyness",
+"The Pursuit of Happiness"
+]
+},
+{
+"title": "The Blind Side",
+"year": 2009,
+"puzzle": "THBLNDSD",
+"alternates": [
+"Blind Side"
+]
+},
+{
+"title": "Remember the Titans",
+"year": 2000,
+"puzzle": "RMMBRTHTTNS",
+"alternates": []
+},
+{
+"title": "Hoosiers",
+"year": 1986,
+"puzzle": "HSRS",
+"alternates": []
+},
+{
+"title": "Field of Dreams",
+"year": 1989,
+"puzzle": "FLDFDRMS",
+"alternates": []
+},
+{
+"title": "The Sandlot",
+"year": 1993,
+"puzzle": "THSNDLT",
+"alternates": [
+"Sandlot"
+]
+},
+{
+"title": "A League of Their Own",
+"year": 1992,
+"puzzle": "LGFTHRWN",
+"alternates": [
+"League of Their Own"
+]
+},
+{
+"title": "Major League",
+"year": 1989,
+"puzzle": "MJRLG",
+"alternates": []
+},
+{
+"title": "Bull Durham",
+"year": 1988,
+"puzzle": "BLLDRHM",
+"alternates": []
+},
+{
+"title": "Space Jam",
+"year": 1996,
+"puzzle": "SPCJM",
+"alternates": []
+},
+{
+"title": "The Karate Kid",
+"year": 1984,
+"puzzle": "THKRTKD",
+"alternates": [
+"Karate Kid"
+]
+},
+{
+"title": "Million Dollar Baby",
+"year": 2004,
+"puzzle": "MLLNDLLRBBY",
+"alternates": []
+},
+{
+"title": "Cool Runnings",
+"year": 1993,
+"puzzle": "CLRNNNGS",
+"alternates": []
+},
+{
+"title": "Happy Gilmore",
+"year": 1996,
+"puzzle": "HPPYGLMR",
+"alternates": []
+},
+{
+"title": "Billy Madison",
+"year": 1995,
+"puzzle": "BLLYMDSN",
+"alternates": []
+},
+{
+"title": "The Waterboy",
+"year": 1998,
+"puzzle": "THWTRBY",
+"alternates": [
+"Waterboy",
+"Water Boy"
+]
+},
+{
+"title": "Dodgeball",
+"year": 2004,
+"puzzle": "DDGBLL",
+"alternates": [
+"Dodgeball: A True Underdog Story",
+"Dodge Ball"
+]
+},
+{
+"title": "Anchorman",
+"year": 2004,
+"puzzle": "NCHRMN",
+"alternates": [
+"Anchorman: The Legend of Ron Burgundy"
+]
+},
+{
+"title": "Talladega Nights",
+"year": 2006,
+"puzzle": "TLLDGNGHTS",
+"alternates": [
+"Talladega Nights: The Ballad of Ricky Bobby"
+]
+},
+{
+"title": "Step Brothers",
+"year": 2008,
+"puzzle": "STPBRTHRS",
+"alternates": [
+"Stepbrothers"
+]
+},
+{
+"title": "Old School",
+"year": 2003,
+"puzzle": "LDSCHL",
+"alternates": []
+},
+{
+"title": "Wedding Crashers",
+"year": 2005,
+"puzzle": "WDDNGCRSHRS",
+"alternates": []
+},
+{
+"title": "Superbad",
+"year": 2007,
+"puzzle": "SPRBD",
+"alternates": [
+"Super Bad"
+]
+},
+{
+"title": "The Hangover",
+"year": 2009,
+"puzzle": "THHNGVR",
+"alternates": [
+"Hangover"
+]
+},
+{
+"title": "Bridesmaids",
+"year": 2011,
+"puzzle": "BRDSMDS",
+"alternates": []
+},
+{
+"title": "Mean Girls",
+"year": 2004,
+"puzzle": "MNGRLS",
+"alternates": []
+},
+{
+"title": "Clueless",
+"year": 1995,
+"puzzle": "CLLSS",
+"alternates": []
+},
+{
+"title": "Legally Blonde",
+"year": 2001,
+"puzzle": "LGLLYBLND",
+"alternates": []
+},
+{
+"title": "Napoleon Dynamite",
+"year": 2004,
+"puzzle": "NPLNDYNMT",
+"alternates": []
+},
+{
+"title": "Office Space",
+"year": 1999,
+"puzzle": "FFCSPC",
+"alternates": []
+},
+{
+"title": "Zoolander",
+"year": 2001,
+"puzzle": "ZLNDR",
+"alternates": []
+},
+{
+"title": "Dumb and Dumber",
+"year": 1994,
+"puzzle": "DMBNDDMBR",
+"alternates": [
+"Dumb & Dumber"
+]
+},
+{
+"title": "Ace Ventura: Pet Detective",
+"year": 1994,
+"puzzle": "CVNTRPTDTCTV",
+"alternates": [
+"Ace Ventura"
+]
+},
+{
+"title": "The Mask",
+"year": 1994,
+"puzzle": "THMSK",
+"alternates": [
+"Mask"
+]
+},
+{
+"title": "Liar Liar",
+"year": 1997,
+"puzzle": "LRLR",
+"alternates": []
+},
+{
+"title": "The Truman Show",
+"year": 1998,
+"puzzle": "THTRMNSHW",
+"alternates": [
+"Truman Show"
+]
+},
+{
+"title": "Bruce Almighty",
+"year": 2003,
+"puzzle": "BRCLMGHTY",
+"alternates": []
+},
+{
+"title": "Meet the Parents",
+"year": 2000,
+"puzzle": "MTTHPRNTS",
+"alternates": []
+},
+{
+"title": "There's Something About Mary",
+"year": 1998,
+"puzzle": "THRSSMTHNGBTMRY",
+"alternates": [
+"Theres Something About Mary"
+]
+},
+{
+"title": "Austin Powers",
+"year": 1997,
+"puzzle": "STNPWRS",
+"alternates": [
+"Austin Powers: International Man of Mystery"
+]
+},
+{
+"title": "Wayne's World",
+"year": 1992,
+"puzzle": "WYNSWRLD",
+"alternates": [
+"Waynes World"
+]
+},
+{
+"title": "Tropic Thunder",
+"year": 2008,
+"puzzle": "TRPCTHNDR",
+"alternates": []
+},
+{
+"title": "Airplane!",
+"year": 1980,
+"puzzle": "RPLN",
+"alternates": [
+"Airplane"
+]
+},
+{
+"title": "The Naked Gun",
+"year": 1988,
+"puzzle": "THNKDGN",
+"alternates": [
+"Naked Gun"
+]
+},
+{
+"title": "Monty Python and the Holy Grail",
+"year": 1975,
+"puzzle": "MNTYPYTHNNDTHHLYGRL",
+"alternates": [
+"Holy Grail"
+]
+},
+{
+"title": "Life of Brian",
+"year": 1979,
+"puzzle": "LFFBRN",
+"alternates": [
+"Monty Python's Life of Brian"
+]
+},
+{
+"title": "Spaceballs",
+"year": 1987,
+"puzzle": "SPCBLLS",
+"alternates": [
+"Space Balls"
+]
+},
+{
+"title": "Young Frankenstein",
+"year": 1974,
+"puzzle": "YNGFRNKNSTN",
+"alternates": []
+},
+{
+"title": "Blazing Saddles",
+"year": 1974,
+"puzzle": "BLZNGSDDLS",
+"alternates": []
+},
+{
+"title": "Some Like It Hot",
+"year": 1959,
+"puzzle": "SMLKTHT",
+"alternates": []
+},
+{
+"title": "Trading Places",
+"year": 1983,
+"puzzle": "TRDNGPLCS",
+"alternates": []
+},
+{
+"title": "Coming to America",
+"year": 1988,
+"puzzle": "CMNGTMRC",
+"alternates": []
+},
+{
+"title": "Beverly Hills Cop",
+"year": 1984,
+"puzzle": "BVRLYHLLSCP",
+"alternates": []
+},
+{
+"title": "48 Hrs.",
+"year": 1982,
+"puzzle": "48HRS",
+"alternates": [
+"48 Hours",
+"Forty Eight Hours"
+]
+},
+{
+"title": "Rush Hour",
+"year": 1998,
+"puzzle": "RSHHR",
+"alternates": []
+},
+{
+"title": "Planes, Trains and Automobiles",
+"year": 1987,
+"puzzle": "PLNSTRNSNDTMBLS",
+"alternates": [
+"Planes Trains and Automobiles"
+]
+},
+{
+"title": "Uncle Buck",
+"year": 1989,
+"puzzle": "NCLBCK",
+"alternates": []
+},
+{
+"title": "Honey, I Shrunk the Kids",
+"year": 1989,
+"puzzle": "HNYSHRNKTHKDS",
+"alternates": [
+"Honey I Shrunk the Kids"
+]
+},
+{
+"title": "Jumanji",
+"year": 1995,
+"puzzle": "JMNJ",
+"alternates": []
+},
+{
+"title": "Big Fish",
+"year": 2003,
+"puzzle": "BGFSH",
+"alternates": []
+},
+{
+"title": "Matilda",
+"year": 1996,
+"puzzle": "MTLD",
+"alternates": []
+},
+{
+"title": "The Parent Trap",
+"year": 1998,
+"puzzle": "THPRNTTRP",
+"alternates": [
+"Parent Trap"
+]
+},
+{
+"title": "Freaky Friday",
+"year": 2003,
+"puzzle": "FRKYFRDY",
+"alternates": []
+},
+{
+"title": "The Princess Diaries",
+"year": 2001,
+"puzzle": "THPRNCSSDRS",
+"alternates": [
+"Princess Diaries"
+]
+},
+{
+"title": "13 Going on 30",
+"year": 2004,
+"puzzle": "13GNGN30",
+"alternates": [
+"Thirteen Going on Thirty"
+]
+},
+{
+"title": "The Devil Wears Prada",
+"year": 2006,
+"puzzle": "THDVLWRSPRD",
+"alternates": [
+"Devil Wears Prada"
+]
+},
+{
+"title": "Crazy Rich Asians",
+"year": 2018,
+"puzzle": "CRZYRCHSNS",
+"alternates": []
+},
+{
+"title": "Oppenheimer",
+"year": 2023,
+"puzzle": "PPNHMR",
+"alternates": []
+},
+{
+"title": "Everything Everywhere All at Once",
+"year": 2022,
+"puzzle": "VRYTHNGVRYWHRLLTNC",
+"alternates": []
+},
+{
+"title": "Parasite",
+"year": 2019,
+"puzzle": "PRST",
+"alternates": []
+},
+{
+"title": "Slumdog Millionaire",
+"year": 2008,
+"puzzle": "SLMDGMLLNR",
+"alternates": []
+},
+{
+"title": "Life of Pi",
+"year": 2012,
+"puzzle": "LFFP",
+"alternates": []
+},
+{
+"title": "The Revenant",
+"year": 2015,
+"puzzle": "THRVNNT",
+"alternates": [
+"Revenant"
+]
+},
+{
+"title": "Birdman",
+"year": 2014,
+"puzzle": "BRDMN",
+"alternates": []
+},
+{
+"title": "The Grand Budapest Hotel",
+"year": 2014,
+"puzzle": "THGRNDBDPSTHTL",
+"alternates": [
+"Grand Budapest Hotel"
+]
+},
+{
+"title": "Moonrise Kingdom",
+"year": 2012,
+"puzzle": "MNRSKNGDM",
+"alternates": []
+},
+{
+"title": "The Royal Tenenbaums",
+"year": 2001,
+"puzzle": "THRYLTNNBMS",
+"alternates": [
+"Royal Tenenbaums"
+]
+},
+{
+"title": "Fantastic Mr. Fox",
+"year": 2009,
+"puzzle": "FNTSTCMRFX",
+"alternates": [
+"Fantastic Mr Fox",
+"Fantastic Mister Fox"
+]
+},
+{
+"title": "Lost in Translation",
+"year": 2003,
+"puzzle": "LSTNTRNSLTN",
+"alternates": []
+},
+{
+"title": "Eternal Sunshine of the Spotless Mind",
+"year": 2004,
+"puzzle": "TRNLSNSHNFTHSPTLSSMND",
+"alternates": []
+},
+{
+"title": "Being John Malkovich",
+"year": 1999,
+"puzzle": "BNGJHNMLKVCH",
+"alternates": []
+},
+{
+"title": "Memento",
+"year": 2000,
+"puzzle": "MMNT",
+"alternates": []
+},
+{
+"title": "The Prestige",
+"year": 2006,
+"puzzle": "THPRSTG",
+"alternates": [
+"Prestige"
+]
+},
+{
+"title": "Dunkirk",
+"year": 2017,
+"puzzle": "DNKRK",
+"alternates": []
+},
+{
+"title": "Shutter Island",
+"year": 2010,
+"puzzle": "SHTTRSLND",
+"alternates": []
+},
+{
+"title": "Gone Girl",
+"year": 2014,
+"puzzle": "GNGRL",
+"alternates": []
+},
+{
+"title": "The Girl with the Dragon Tattoo",
+"year": 2011,
+"puzzle": "THGRLWTHTHDRGNTTT",
+"alternates": [
+"Girl with the Dragon Tattoo"
+]
+},
+{
+"title": "Prisoners",
+"year": 2013,
+"puzzle": "PRSNRS",
+"alternates": []
+},
+{
+"title": "Nightcrawler",
+"year": 2014,
+"puzzle": "NGHTCRWLR",
+"alternates": [
+"Night Crawler"
+]
+},
+{
+"title": "There Will Be Blood",
+"year": 2007,
+"puzzle": "THRWLLBBLD",
+"alternates": []
+},
+{
+"title": "Boogie Nights",
+"year": 1997,
+"puzzle": "BGNGHTS",
+"alternates": []
+},
+{
+"title": "Magnolia",
+"year": 1999,
+"puzzle": "MGNL",
+"alternates": []
+},
+{
+"title": "American Beauty",
+"year": 1999,
+"puzzle": "MRCNBTY",
+"alternates": []
+},
+{
+"title": "American Psycho",
+"year": 2000,
+"puzzle": "MRCNPSYCH",
+"alternates": []
+},
+{
+"title": "American History X",
+"year": 1998,
+"puzzle": "MRCNHSTRYX",
+"alternates": []
+},
+{
+"title": "American Pie",
+"year": 1999,
+"puzzle": "MRCNP",
+"alternates": []
+},
+{
+"title": "American Graffiti",
+"year": 1973,
+"puzzle": "MRCNGRFFT",
+"alternates": []
+},
+{
+"title": "Trainspotting",
+"year": 1996,
+"puzzle": "TRNSPTTNG",
+"alternates": [
+"Train Spotting"
+]
+},
+{
+"title": "Requiem for a Dream",
+"year": 2000,
+"puzzle": "RQMFRDRM",
+"alternates": []
+},
+{
+"title": "Donnie Darko",
+"year": 2001,
+"puzzle": "DNNDRK",
+"alternates": []
+},
+{
+"title": "The Matrix Reloaded",
+"year": 2003,
+"puzzle": "THMTRXRLDD",
+"alternates": [
+"Matrix Reloaded"
+]
+},
+{
+"title": "V for Vendetta",
+"year": 2005,
+"puzzle": "VFRVNDTT",
+"alternates": []
+},
+{
+"title": "Sin City",
+"year": 2005,
+"puzzle": "SNCTY",
+"alternates": []
+},
+{
+"title": "Watchmen",
+"year": 2009,
+"puzzle": "WTCHMN",
+"alternates": [
+"Watch Men"
+]
+},
+{
+"title": "Kingsman: The Secret Service",
+"year": 2014,
+"puzzle": "KNGSMNTHSCRTSRVC",
+"alternates": [
+"Kingsman"
+]
+},
+{
+"title": "Snatch",
+"year": 2000,
+"puzzle": "SNTCH",
+"alternates": []
+},
+{
+"title": "Lock, Stock and Two Smoking Barrels",
+"year": 1998,
+"puzzle": "LCKSTCKNDTWSMKNGBRRLS",
+"alternates": [
+"Lock Stock and Two Smoking Barrels"
+]
+},
+{
+"title": "Ocean's Eleven",
+"year": 2001,
+"puzzle": "CNSLVN",
+"alternates": [
+"Oceans Eleven",
+"Ocean's 11",
+"Oceans 11"
+]
+},
+{
+"title": "The Italian Job",
+"year": 2003,
+"puzzle": "THTLNJB",
+"alternates": [
+"Italian Job"
+]
+},
+{
+"title": "The Sting",
+"year": 1973,
+"puzzle": "THSTNG",
+"alternates": [
+"Sting"
+]
+},
+{
+"title": "Butch Cassidy and the Sundance Kid",
+"year": 1969,
+"puzzle": "BTCHCSSDYNDTHSNDNCKD",
+"alternates": [
+"Butch Cassidy"
+]
+},
+{
+"title": "The Good, the Bad and the Ugly",
+"year": 1966,
+"puzzle": "THGDTHBDNDTHGLY",
+"alternates": [
+"The Good the Bad and the Ugly",
+"Good Bad and Ugly"
+]
+},
+{
+"title": "Unforgiven",
+"year": 1992,
+"puzzle": "NFRGVN",
+"alternates": []
+},
+{
+"title": "Dances with Wolves",
+"year": 1990,
+"puzzle": "DNCSWTHWLVS",
+"alternates": []
+},
+{
+"title": "Tombstone",
+"year": 1993,
+"puzzle": "TMBSTN",
+"alternates": [
+"Tomb Stone"
+]
+},
+{
+"title": "True Grit",
+"year": 2010,
+"puzzle": "TRGRT",
+"alternates": []
+},
+{
+"title": "High Noon",
+"year": 1952,
+"puzzle": "HGHNN",
+"alternates": []
+},
+{
+"title": "The Magnificent Seven",
+"year": 1960,
+"puzzle": "THMGNFCNTSVN",
+"alternates": [
+"Magnificent Seven",
+"Magnificent 7"
+]
+},
+{
+"title": "Brokeback Mountain",
+"year": 2005,
+"puzzle": "BRKBCKMNTN",
+"alternates": []
+},
+{
+"title": "Lawrence of Arabia",
+"year": 1962,
+"puzzle": "LWRNCFRB",
+"alternates": []
+},
+{
+"title": "Ben-Hur",
+"year": 1959,
+"puzzle": "BNHR",
+"alternates": [
+"Ben Hur"
+]
+},
+{
+"title": "Spartacus",
+"year": 1960,
+"puzzle": "SPRTCS",
+"alternates": []
+},
+{
+"title": "The Ten Commandments",
+"year": 1956,
+"puzzle": "THTNCMMNDMNTS",
+"alternates": [
+"Ten Commandments",
+"10 Commandments"
+]
+},
+{
+"title": "Braveheart",
+"year": 1995,
+"puzzle": "BRVHRT",
+"alternates": [
+"Brave Heart"
+]
+},
+{
+"title": "Platoon",
+"year": 1986,
+"puzzle": "PLTN",
+"alternates": []
+},
+{
+"title": "Full Metal Jacket",
+"year": 1987,
+"puzzle": "FLLMTLJCKT",
+"alternates": []
+},
+{
+"title": "Black Hawk Down",
+"year": 2001,
+"puzzle": "BLCKHWKDWN",
+"alternates": []
+},
+{
+"title": "Hacksaw Ridge",
+"year": 2016,
+"puzzle": "HCKSWRDG",
+"alternates": []
+},
+{
+"title": "The Hurt Locker",
+"year": 2008,
+"puzzle": "THHRTLCKR",
+"alternates": [
+"Hurt Locker"
+]
+},
+{
+"title": "The Deer Hunter",
+"year": 1978,
+"puzzle": "THDRHNTR",
+"alternates": [
+"Deer Hunter"
+]
+},
+{
+"title": "Good Morning, Vietnam",
+"year": 1987,
+"puzzle": "GDMRNNGVTNM",
+"alternates": [
+"Good Morning Vietnam"
+]
+},
+{
+"title": "The Great Escape",
+"year": 1963,
+"puzzle": "THGRTSCP",
+"alternates": [
+"Great Escape"
+]
+},
+{
+"title": "The Bridge on the River Kwai",
+"year": 1957,
+"puzzle": "THBRDGNTHRVRKW",
+"alternates": [
+"Bridge on the River Kwai"
+]
+},
+{
+"title": "Patton",
+"year": 1970,
+"puzzle": "PTTN",
+"alternates": []
+},
+{
+"title": "The Pianist",
+"year": 2002,
+"puzzle": "THPNST",
+"alternates": [
+"Pianist"
+]
+},
+{
+"title": "Life Is Beautiful",
+"year": 1997,
+"puzzle": "LFSBTFL",
+"alternates": []
+},
+{
+"title": "Hotel Rwanda",
+"year": 2004,
+"puzzle": "HTLRWND",
+"alternates": []
+},
+{
+"title": "12 Years a Slave",
+"year": 2013,
+"puzzle": "12YRSSLV",
+"alternates": [
+"Twelve Years a Slave"
+]
+},
+{
+"title": "Hidden Figures",
+"year": 2016,
+"puzzle": "HDDNFGRS",
+"alternates": []
+},
+{
+"title": "The King's Speech",
+"year": 2010,
+"puzzle": "THKNGSSPCH",
+"alternates": [
+"The Kings Speech",
+"King's Speech"
+]
+},
+{
+"title": "The Imitation Game",
+"year": 2014,
+"puzzle": "THMTTNGM",
+"alternates": [
+"Imitation Game"
+]
+},
+{
+"title": "The Theory of Everything",
+"year": 2014,
+"puzzle": "THTHRYFVRYTHNG",
+"alternates": [
+"Theory of Everything"
+]
+},
+{
+"title": "Lincoln",
+"year": 2012,
+"puzzle": "LNCLN",
+"alternates": []
+},
+{
+"title": "Erin Brockovich",
+"year": 2000,
+"puzzle": "RNBRCKVCH",
+"alternates": []
+},
+{
+"title": "Spotlight",
+"year": 2015,
+"puzzle": "SPTLGHT",
+"alternates": []
+},
+{
+"title": "All the President's Men",
+"year": 1976,
+"puzzle": "LLTHPRSDNTSMN",
+"alternates": [
+"All the Presidents Men"
+]
+},
+{
+"title": "Network",
+"year": 1976,
+"puzzle": "NTWRK",
+"alternates": []
+},
+{
+"title": "12 Angry Men",
+"year": 1957,
+"puzzle": "12NGRYMN",
+"alternates": [
+"Twelve Angry Men"
+]
+},
+{
+"title": "To Kill a Mockingbird",
+"year": 1962,
+"puzzle": "TKLLMCKNGBRD",
+"alternates": []
+},
+{
+"title": "One Flew Over the Cuckoo's Nest",
+"year": 1975,
+"puzzle": "NFLWVRTHCCKSNST",
+"alternates": [
+"One Flew Over the Cuckoos Nest",
+"Cuckoo's Nest"
+]
+},
+{
+"title": "Chinatown",
+"year": 1974,
+"puzzle": "CHNTWN",
+"alternates": [
+"China Town"
+]
+},
+{
+"title": "The Graduate",
+"year": 1967,
+"puzzle": "THGRDT",
+"alternates": [
+"Graduate"
+]
+},
+{
+"title": "Bonnie and Clyde",
+"year": 1967,
+"puzzle": "BNNNDCLYD",
+"alternates": [
+"Bonnie & Clyde"
+]
+},
+{
+"title": "Easy Rider",
+"year": 1969,
+"puzzle": "SYRDR",
+"alternates": []
+},
+{
+"title": "Midnight Cowboy",
+"year": 1969,
+"puzzle": "MDNGHTCWBY",
+"alternates": []
+},
+{
+"title": "Annie Hall",
+"year": 1977,
+"puzzle": "NNHLL",
+"alternates": []
+},
+{
+"title": "Manhattan",
+"year": 1979,
+"puzzle": "MNHTTN",
+"alternates": []
+},
+{
+"title": "Breakfast at Tiffany's",
+"year": 1961,
+"puzzle": "BRKFSTTTFFNYS",
+"alternates": [
+"Breakfast at Tiffanys"
+]
+},
+{
+"title": "Roman Holiday",
+"year": 1953,
+"puzzle": "RMNHLDY",
+"alternates": []
+},
+{
+"title": "Sunset Boulevard",
+"year": 1950,
+"puzzle": "SNSTBLVRD",
+"alternates": [
+"Sunset Blvd."
+]
+},
+{
+"title": "All About Eve",
+"year": 1950,
+"puzzle": "LLBTV",
+"alternates": []
+},
+{
+"title": "The Maltese Falcon",
+"year": 1941,
+"puzzle": "THMLTSFLCN",
+"alternates": [
+"Maltese Falcon"
+]
+},
+{
+"title": "Double Indemnity",
+"year": 1944,
+"puzzle": "DBLNDMNTY",
+"alternates": []
+},
+{
+"title": "It Happened One Night",
+"year": 1934,
+"puzzle": "THPPNDNNGHT",
+"alternates": []
+},
+{
+"title": "King Kong",
+"year": 1933,
+"puzzle": "KNGKNG",
+"alternates": []
+},
+{
+"title": "Frankenstein",
+"year": 1931,
+"puzzle": "FRNKNSTN",
+"alternates": []
+},
+{
+"title": "Dracula",
+"year": 1931,
+"puzzle": "DRCL",
+"alternates": []
+},
+{
+"title": "The Mummy",
+"year": 1999,
+"puzzle": "THMMMY",
+"alternates": [
+"Mummy"
+]
+},
+{
+"title": "Jumanji: Welcome to the Jungle",
+"year": 2017,
+"puzzle": "JMNJWLCMTTHJNGL",
+"alternates": [
+"Welcome to the Jungle"
+]
+},
+{
+"title": "Night at the Museum",
+"year": 2006,
+"puzzle": "NGHTTTHMSM",
+"alternates": []
+},
+{
+"title": "National Treasure",
+"year": 2004,
+"puzzle": "NTNLTRSR",
+"alternates": []
+},
+{
+"title": "The Princess and the Frog",
+"year": 2009,
+"puzzle": "THPRNCSSNDTHFRG",
+"alternates": [
+"Princess and the Frog"
+]
+},
+{
+"title": "Wreck-It Ralph",
+"year": 2012,
+"puzzle": "WRCKTRLPH",
+"alternates": [
+"Wreck It Ralph"
+]
+},
+{
+"title": "Big Hero 6",
+"year": 2014,
+"puzzle": "BGHR6",
+"alternates": [
+"Big Hero Six"
+]
+},
+{
+"title": "A Bug's Life",
+"year": 1998,
+"puzzle": "BGSLF",
+"alternates": [
+"A Bugs Life",
+"Bug's Life"
+]
+},
+{
+"title": "Chicken Run",
+"year": 2000,
+"puzzle": "CHCKNRN",
+"alternates": []
+},
+{
+"title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+"year": 2005,
+"puzzle": "WLLCGRMTTHCRSFTHWRRBBT",
+"alternates": [
+"Wallace and Gromit",
+"The Curse of the Were-Rabbit"
+]
+},
+{
+"title": "Free Willy",
+"year": 1993,
+"puzzle": "FRWLLY",
+"alternates": []
+},
+{
+"title": "Beethoven",
+"year": 1992,
+"puzzle": "BTHVN",
+"alternates": []
+},
+{
+"title": "Marley & Me",
+"year": 2008,
+"puzzle": "MRLYM",
+"alternates": [
+"Marley and Me"
+]
+},
+{
+"title": "Homeward Bound",
+"year": 1993,
+"puzzle": "HMWRDBND",
+"alternates": [
+"Homeward Bound: The Incredible Journey"
+]
+},
+{
+"title": "Paddington",
+"year": 2014,
+"puzzle": "PDDNGTN",
+"alternates": []
+},
+{
+"title": "Stuart Little",
+"year": 1999,
+"puzzle": "STRTLTTL",
+"alternates": []
+},
+{
+"title": "The NeverEnding Story",
+"year": 1984,
+"puzzle": "THNVRNDNGSTRY",
+"alternates": [
+"NeverEnding Story",
+"The Never Ending Story"
+]
+},
+{
+"title": "Labyrinth",
+"year": 1986,
+"puzzle": "LBYRNTH",
+"alternates": []
+},
+{
+"title": "The Dark Crystal",
+"year": 1982,
+"puzzle": "THDRKCRYSTL",
+"alternates": [
+"Dark Crystal"
+]
+},
+{
+"title": "Willow",
+"year": 1988,
+"puzzle": "WLLW",
+"alternates": []
+},
+{
+"title": "Highlander",
+"year": 1986,
+"puzzle": "HGHLNDR",
+"alternates": [
+"High Lander"
+]
+},
+{
+"title": "WarGames",
+"year": 1983,
+"puzzle": "WRGMS",
+"alternates": [
+"War Games"
+]
+},
+{
+"title": "Short Circuit",
+"year": 1986,
+"puzzle": "SHRTCRCT",
+"alternates": []
+},
+{
+"title": "Bill & Ted's Excellent Adventure",
+"year": 1989,
+"puzzle": "BLLTDSXCLLNTDVNTR",
+"alternates": [
+"Bill and Ted's Excellent Adventure",
+"Bill and Teds Excellent Adventure"
+]
+},
+{
+"title": "The Fifth Element",
+"year": 1997,
+"puzzle": "THFFTHLMNT",
+"alternates": [
+"Fifth Element",
+"5th Element"
+]
+},
+{
+"title": "Starship Troopers",
+"year": 1997,
+"puzzle": "STRSHPTRPRS",
+"alternates": []
+},
+{
+"title": "Contact",
+"year": 1997,
+"puzzle": "CNTCT",
+"alternates": []
+},
+{
+"title": "Twister",
+"year": 1996,
+"puzzle": "TWSTR",
+"alternates": []
+},
+{
+"title": "Deep Impact",
+"year": 1998,
+"puzzle": "DPMPCT",
+"alternates": []
+},
+{
+"title": "The Day After Tomorrow",
+"year": 2004,
+"puzzle": "THDYFTRTMRRW",
+"alternates": [
+"Day After Tomorrow"
+]
+},
+{
+"title": "War of the Worlds",
+"year": 2005,
+"puzzle": "WRFTHWRLDS",
+"alternates": []
+},
+{
+"title": "I Am Legend",
+"year": 2007,
+"puzzle": "MLGND",
+"alternates": []
+},
+{
+"title": "Minority Report",
+"year": 2002,
+"puzzle": "MNRTYRPRT",
+"alternates": []
+},
+{
+"title": "Edge of Tomorrow",
+"year": 2014,
+"puzzle": "DGFTMRRW",
+"alternates": []
+},
+{
+"title": "District 9",
+"year": 2009,
+"puzzle": "DSTRCT9",
+"alternates": [
+"District Nine"
+]
+},
+{
+"title": "Ex Machina",
+"year": 2014,
+"puzzle": "XMCHN",
+"alternates": []
+},
+{
+"title": "Unbreakable",
+"year": 2000,
+"puzzle": "NBRKBL",
+"alternates": []
+},
+{
+"title": "Split",
+"year": 2016,
+"puzzle": "SPLT",
+"alternates": []
+},
+{
+"title": "The Others",
+"year": 2001,
+"puzzle": "THTHRS",
+"alternates": []
+},
+{
+"title": "Pan's Labyrinth",
+"year": 2006,
+"puzzle": "PNSLBYRNTH",
+"alternates": [
+"Pans Labyrinth"
+]
+},
+{
+"title": "Cloverfield",
+"year": 2008,
+"puzzle": "CLVRFLD",
+"alternates": [
+"Clover Field"
+]
+},
+{
+"title": "A Quiet Place",
+"year": 2018,
+"puzzle": "QTPLC",
+"alternates": [
+"Quiet Place"
+]
+},
+{
+"title": "First Blood",
+"year": 1982,
+"puzzle": "FRSTBLD",
+"alternates": [
+"Rambo: First Blood"
+]
+},
+{
+"title": "Rocky II",
+"year": 1979,
+"puzzle": "RCKY2",
+"alternates": [
+"Rocky 2"
+]
+},
+{
+"title": "Rocky IV",
+"year": 1985,
+"puzzle": "RCKY4",
+"alternates": [
+"Rocky 4"
+]
+},
+{
+"title": "Cocktail",
+"year": 1988,
+"puzzle": "CCKTL",
+"alternates": []
+},
+{
+"title": "Days of Thunder",
+"year": 1990,
+"puzzle": "DYSFTHNDR",
+"alternates": []
+},
+{
+"title": "A Few Good Men",
+"year": 1992,
+"puzzle": "FWGDMN",
+"alternates": [
+"Few Good Men"
+]
+},
+{
+"title": "The Firm",
+"year": 1993,
+"puzzle": "THFRM",
+"alternates": []
+},
+{
+"title": "Jack Reacher",
+"year": 2012,
+"puzzle": "JCKRCHR",
+"alternates": []
+},
+{
+"title": "Collateral",
+"year": 2004,
+"puzzle": "CLLTRL",
+"alternates": []
+},
+{
+"title": "Vanilla Sky",
+"year": 2001,
+"puzzle": "VNLLSKY",
+"alternates": []
+},
+{
+"title": "Risky Business",
+"year": 1983,
+"puzzle": "RSKYBSNSS",
+"alternates": []
+},
+{
+"title": "Sleepy Hollow",
+"year": 1999,
+"puzzle": "SLPYHLLW",
+"alternates": []
+},
+{
+"title": "Alice in Wonderland",
+"year": 1951,
+"puzzle": "LCNWNDRLND",
+"alternates": []
+},
+{
+"title": "Corpse Bride",
+"year": 2005,
+"puzzle": "CRPSBRD",
+"alternates": []
+},
+{
+"title": "Sweeney Todd",
+"year": 2007,
+"puzzle": "SWNYTDD",
+"alternates": [
+"Sweeney Todd: The Demon Barber of Fleet Street"
+]
+},
+{
+"title": "Pretty in Pink",
+"year": 1986,
+"puzzle": "PRTTYNPNK",
+"alternates": []
+},
+{
+"title": "Say Anything",
+"year": 1989,
+"puzzle": "SYNYTHNG",
+"alternates": [
+"Say Anything..."
+]
+},
+{
+"title": "Fast Times at Ridgemont High",
+"year": 1982,
+"puzzle": "FSTTMSTRDGMNTHGH",
+"alternates": []
+},
+{
+"title": "Weird Science",
+"year": 1985,
+"puzzle": "WRDSCNC",
+"alternates": []
+},
+{
+"title": "Back to the Future Part II",
+"year": 1989,
+"puzzle": "BCKTTHFTRPRT2",
+"alternates": [
+"Back to the Future 2",
+"Back to the Future II"
+]
+},
+{
+"title": "Who Framed Roger Rabbit",
+"year": 1988,
+"puzzle": "WHFRMDRGRRBBT",
+"alternates": [
+"Who Framed Roger Rabbit?"
+]
+},
+{
+"title": "Driving Miss Daisy",
+"year": 1989,
+"puzzle": "DRVNGMSSDSY",
+"alternates": []
+},
+{
+"title": "Steel Magnolias",
+"year": 1989,
+"puzzle": "STLMGNLS",
+"alternates": []
+},
+{
+"title": "Thelma & Louise",
+"year": 1991,
+"puzzle": "THLMLS",
+"alternates": [
+"Thelma and Louise"
+]
+},
+{
+"title": "Fried Green Tomatoes",
+"year": 1991,
+"puzzle": "FRDGRNTMTS",
+"alternates": []
+},
+{
+"title": "The Bodyguard",
+"year": 1992,
+"puzzle": "THBDYGRD",
+"alternates": [
+"Bodyguard",
+"Body Guard"
+]
+},
+{
+"title": "Sister Act",
+"year": 1992,
+"puzzle": "SSTRCT",
+"alternates": []
+},
+{
+"title": "Basic Instinct",
+"year": 1992,
+"puzzle": "BSCNSTNCT",
+"alternates": []
+},
+{
+"title": "The Fugitive",
+"year": 1993,
+"puzzle": "THFGTV",
+"alternates": [
+"Fugitive"
+]
+},
+{
+"title": "Clear and Present Danger",
+"year": 1994,
+"puzzle": "CLRNDPRSNTDNGR",
+"alternates": []
+},
+{
+"title": "Air Force One",
+"year": 1997,
+"puzzle": "RFRCN",
+"alternates": []
+},
+{
+"title": "Patriot Games",
+"year": 1992,
+"puzzle": "PTRTGMS",
+"alternates": []
+},
+{
+"title": "The Hunt for Red October",
+"year": 1990,
+"puzzle": "THHNTFRRDCTBR",
+"alternates": [
+"Hunt for Red October"
+]
+},
+{
+"title": "Crimson Tide",
+"year": 1995,
+"puzzle": "CRMSNTD",
+"alternates": []
+},
+{
+"title": "Waterworld",
+"year": 1995,
+"puzzle": "WTRWRLD",
+"alternates": [
+"Water World"
+]
+},
+{
+"title": "Twelve Monkeys",
+"year": 1995,
+"puzzle": "TWLVMNKYS",
+"alternates": [
+"12 Monkeys"
+]
+},
+{
+"title": "The Iron Giant",
+"year": 1999,
+"puzzle": "THRNGNT",
+"alternates": [
+"Iron Giant"
+]
+},
+{
+"title": "10 Things I Hate About You",
+"year": 1999,
+"puzzle": "10THNGSHTBTY",
+"alternates": [
+"Ten Things I Hate About You"
+]
+},
+{
+"title": "She's All That",
+"year": 1999,
+"puzzle": "SHSLLTHT",
+"alternates": [
+"Shes All That"
+]
+},
+{
+"title": "Galaxy Quest",
+"year": 1999,
+"puzzle": "GLXYQST",
+"alternates": []
+},
+{
+"title": "Toy Story 2",
+"year": 1999,
+"puzzle": "TYSTRY2",
+"alternates": [
+"Toy Story Two"
+]
+},
+{
+"title": "Toy Story 3",
+"year": 2010,
+"puzzle": "TYSTRY3",
+"alternates": [
+"Toy Story Three"
+]
+},
+{
+"title": "Monsters University",
+"year": 2013,
+"puzzle": "MNSTRSNVRSTY",
+"alternates": []
+},
+{
+"title": "Finding Dory",
+"year": 2016,
+"puzzle": "FNDNGDRY",
+"alternates": []
+},
+{
+"title": "Frozen II",
+"year": 2019,
+"puzzle": "FRZN2",
+"alternates": [
+"Frozen 2"
+]
+},
+{
+"title": "The Hunger Games",
+"year": 2012,
+"puzzle": "THHNGRGMS",
+"alternates": [
+"Hunger Games"
+]
+},
+{
+"title": "Catching Fire",
+"year": 2013,
+"puzzle": "CTCHNGFR",
+"alternates": [
+"The Hunger Games: Catching Fire"
+]
+},
+{
+"title": "Twilight",
+"year": 2008,
+"puzzle": "TWLGHT",
+"alternates": []
+},
+{
+"title": "Divergent",
+"year": 2014,
+"puzzle": "DVRGNT",
+"alternates": []
+},
+{
+"title": "The Maze Runner",
+"year": 2014,
+"puzzle": "THMZRNNR",
+"alternates": [
+"Maze Runner"
+]
+},
+{
+"title": "The Fault in Our Stars",
+"year": 2014,
+"puzzle": "THFLTNRSTRS",
+"alternates": [
+"Fault in Our Stars"
+]
+},
+{
+"title": "Pitch Perfect",
+"year": 2012,
+"puzzle": "PTCHPRFCT",
+"alternates": []
+},
+{
+"title": "Silver Linings Playbook",
+"year": 2012,
+"puzzle": "SLVRLNNGSPLYBK",
+"alternates": []
+},
+{
+"title": "Little Miss Sunshine",
+"year": 2006,
+"puzzle": "LTTLMSSSNSHN",
+"alternates": []
+},
+{
+"title": "Lady Bird",
+"year": 2017,
+"puzzle": "LDYBRD",
+"alternates": [
+"Ladybird"
+]
+},
+{
+"title": "Little Women",
+"year": 2019,
+"puzzle": "LTTLWMN",
+"alternates": []
+},
+{
+"title": "Knives Out",
+"year": 2019,
+"puzzle": "KNVST",
+"alternates": []
+},
+{
+"title": "Glass Onion",
+"year": 2022,
+"puzzle": "GLSSNN",
+"alternates": [
+"Glass Onion: A Knives Out Mystery"
+]
+},
+{
+"title": "The Shape of Water",
+"year": 2017,
+"puzzle": "THSHPFWTR",
+"alternates": [
+"Shape of Water"
+]
+},
+{
+"title": "Three Billboards Outside Ebbing, Missouri",
+"year": 2017,
+"puzzle": "THRBLLBRDSTSDBBNGMSSR",
+"alternates": [
+"Three Billboards"
+]
+},
+{
+"title": "Green Book",
+"year": 2018,
+"puzzle": "GRNBK",
+"alternates": []
+},
+{
+"title": "Nomadland",
+"year": 2020,
+"puzzle": "NMDLND",
+"alternates": [
+"Nomad Land"
+]
+},
+{
+"title": "Ford v Ferrari",
+"year": 2019,
+"puzzle": "FRDVFRRR",
+"alternates": [
+"Ford vs Ferrari",
+"Ford versus Ferrari"
+]
+},
+{
+"title": "Baby Driver",
+"year": 2017,
+"puzzle": "BBYDRVR",
+"alternates": []
+},
+{
+"title": "Hot Fuzz",
+"year": 2007,
+"puzzle": "HTFZZ",
+"alternates": []
+},
+{
+"title": "Wicked",
+"year": 2024,
+"puzzle": "WCKD",
+"alternates": []
+},
+{
+"title": "Inside Out 2",
+"year": 2024,
+"puzzle": "NSDT2",
+"alternates": [
+"Inside Out Two"
+]
+},
+{
+"title": "Dune: Part Two",
+"year": 2024,
+"puzzle": "DNPRTTW",
+"alternates": [
+"Dune Part 2",
+"Dune 2"
+]
+},
+{
+"title": "Gladiator II",
+"year": 2024,
+"puzzle": "GLDTR2",
+"alternates": [
+"Gladiator 2"
+]
+},
+{
+"title": "Deadpool & Wolverine",
+"year": 2024,
+"puzzle": "DDPLWLVRN",
+"alternates": [
+"Deadpool and Wolverine"
+]
+},
+{
+"title": "The Batman",
+"year": 2022,
+"puzzle": "THBTMN",
+"alternates": []
+},
+{
+"title": "Black Widow",
+"year": 2021,
+"puzzle": "BLCKWDW",
+"alternates": []
+},
+{
+"title": "Doctor Strange",
+"year": 2016,
+"puzzle": "DCTRSTRNG",
+"alternates": [
+"Dr. Strange",
+"Dr Strange"
+]
+},
+{
+"title": "Ant-Man",
+"year": 2015,
+"puzzle": "NTMN",
+"alternates": [
+"Ant Man",
+"Antman"
+]
+},
+{
+"title": "Captain Marvel",
+"year": 2019,
+"puzzle": "CPTNMRVL",
+"alternates": []
+},
+{
+"title": "Shazam!",
+"year": 2019,
+"puzzle": "SHZM",
+"alternates": [
+"Shazam"
+]
+},
+{
+"title": "Suicide Squad",
+"year": 2016,
+"puzzle": "SCDSQD",
+"alternates": []
+},
+{
+"title": "Godzilla",
+"year": 2014,
+"puzzle": "GDZLL",
+"alternates": []
+},
+{
+"title": "Kong: Skull Island",
+"year": 2017,
+"puzzle": "KNGSKLLSLND",
+"alternates": [
+"Skull Island"
+]
+},
+{
+"title": "Pacific Rim",
+"year": 2013,
+"puzzle": "PCFCRM",
+"alternates": []
+},
+{
+"title": "Transformers",
+"year": 2007,
+"puzzle": "TRNSFRMRS",
+"alternates": []
+},
+{
+"title": "Pearl Harbor",
+"year": 2001,
+"puzzle": "PRLHRBR",
+"alternates": []
+},
+{
+"title": "Gone in 60 Seconds",
+"year": 2000,
+"puzzle": "GNN60SCNDS",
+"alternates": [
+"Gone in Sixty Seconds"
+]
+},
+{
+"title": "Mission: Impossible – Fallout",
+"year": 2018,
+"puzzle": "MSSNMPSSBLFLLT",
+"alternates": [
+"Mission Impossible Fallout"
+]
+},
+{
+"title": "Skyfall",
+"year": 2012,
+"puzzle": "SKYFLL",
+"alternates": [
+"Sky Fall"
+]
+},
+{
+"title": "Casino Royale",
+"year": 2006,
+"puzzle": "CSNRYL",
+"alternates": []
+},
+{
+"title": "Goldfinger",
+"year": 1964,
+"puzzle": "GLDFNGR",
+"alternates": [
+"Gold Finger"
+]
+},
+{
+"title": "From Russia with Love",
+"year": 1963,
+"puzzle": "FRMRSSWTHLV",
+"alternates": []
+},
+{
+"title": "GoldenEye",
+"year": 1995,
+"puzzle": "GLDNY",
+"alternates": [
+"Golden Eye"
+]
+},
+{
+"title": "Thunderball",
+"year": 1965,
+"puzzle": "THNDRBLL",
+"alternates": [
+"Thunder Ball"
+]
+},
+{
+"title": "Moonraker",
+"year": 1979,
+"puzzle": "MNRKR",
+"alternates": [
+"Moon Raker"
+]
+},
+{
+"title": "Octopussy",
+"year": 1983,
+"puzzle": "CTPSSY",
+"alternates": []
+},
+{
+"title": "No Time to Die",
+"year": 2021,
+"puzzle": "NTMTD",
+"alternates": []
+}
+];

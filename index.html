@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vowelless Movies</title>
+  <meta name="description" content="A daily puzzle: 10 movie titles with the vowels, spaces and punctuation taken out. One minute each.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>V<span class="dim">o</span>W<span class="dim">e</span>LL<span class="dim">e</span>SS</h1>
+      <p class="sub" id="subtitle">Movies</p>
+    </header>
+
+    <section id="intro" hidden>
+      <p class="lead">Ten movie titles. The vowels, spaces and punctuation are gone. Name each one.</p>
+      <div class="example">
+        <div class="tiles small"><span>J</span><span>R</span><span>S</span><span>S</span><span>C</span><span>P</span><span>R</span><span>K</span></div>
+        <p>is <strong>Jurassic Park</strong></p>
+      </div>
+      <ul class="rules">
+        <li>You have <strong>one minute</strong> per title. Guess as many times as you like.</li>
+        <li>Only A, E, I, O and U are removed. Y and numbers stay, and Roman numerals show as digits (II becomes 2).</li>
+        <li>Case, punctuation, a leading “The” and one small typo in long titles don’t matter.</li>
+        <li>A correct answer is worth 100 points, plus up to 100 more for speed.</li>
+        <li>Everyone gets the same 10 titles today. Come back tomorrow for new ones.</li>
+      </ul>
+      <button id="start" class="primary">Start today’s puzzle</button>
+      <p class="note">The clock keeps running if you leave or reload the page.</p>
+    </section>
+
+    <section id="play" hidden>
+      <div class="status">
+        <span id="counter">1 / 10</span>
+        <span id="clock" class="clock">1:00</span>
+      </div>
+      <div class="bar"><div id="bar-fill"></div></div>
+      <div id="puzzle" class="tiles" aria-live="polite"></div>
+      <form id="guess-form" autocomplete="off">
+        <input id="guess" type="text" placeholder="Type the movie title" autocapitalize="words" spellcheck="false" aria-label="Your guess">
+        <div class="buttons">
+          <button type="submit" class="primary">Guess</button>
+          <button type="button" id="skip">Skip</button>
+        </div>
+      </form>
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+      <ol id="dots" class="dots"></ol>
+    </section>
+
+    <section id="results" hidden>
+      <div class="score-box">
+        <div><strong id="r-correct">0/10</strong><span>correct</span></div>
+        <div><strong id="r-score">0</strong><span>points</span></div>
+        <div><strong id="r-time">0:00</strong><span>total time</span></div>
+      </div>
+      <pre id="share-preview" class="share-preview"></pre>
+      <button id="share" class="primary">Share results</button>
+      <p id="share-msg" class="note" aria-live="polite"></p>
+
+      <h2>Today’s answers</h2>
+      <ol id="answers" class="answers"></ol>
+
+      <h2>Your stats</h2>
+      <div class="stats">
+        <div><strong id="s-played">0</strong><span>played</span></div>
+        <div><strong id="s-streak">0</strong><span>streak</span></div>
+        <div><strong id="s-avg">0</strong><span>avg points</span></div>
+        <div><strong id="s-best">0</strong><span>best</span></div>
+      </div>
+      <p class="note" id="next">Next puzzle at midnight.</p>
+    </section>
+  </main>
+
+  <script src="movies.js"></script>
+  <script src="game.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
